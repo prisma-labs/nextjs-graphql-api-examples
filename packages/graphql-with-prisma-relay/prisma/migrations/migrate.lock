@@ -1,0 +1,5 @@
+# Prisma Migrate lockfile v1
+
+20200729172424-init
+20200729185831-votes-default
+20200731151859-blog-post

@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "lib": ["esnext"],
+    "strict": true,
+    "rootDir": ".",
+    "sourceMap": true,
+    "esModuleInterop": true
+  }
+}

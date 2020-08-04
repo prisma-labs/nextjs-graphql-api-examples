@@ -1,0 +1,35 @@
+{
+  "name": "zeit-typescript",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "yarn ts-node-dev --transpile-only ./api/serverful.ts",
+    "vercel:dev": "vercel dev",
+    "generate:nexus": "ts-node --transpile-only schema",
+    "now-build": "yarn prisma generate && yarn -s generate:nexus",
+    "seed": "yarn ts-node prisma/seed.ts"
+  },
+  "prettier": {
+    "semi": false,
+    "trailingComma": "all"
+  },
+  "dependencies": {
+    "@nexus/schema": "^0.14.0",
+    "apollo-server": "^2.16.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^14.5.8",
+    "graphql-relay": "^0.6.0",
+    "nexus-plugin-prisma": "^0.16.1"
+  },
+  "devDependencies": {
+    "@now/node": "^1.0.1",
+    "@types/faker": "^4.1.12",
+    "@types/graphql-relay": "^0.6.0",
+    "@types/node": "^12.11.1",
+    "faker": "^4.1.0",
+    "ts-node": "^8.4.1",
+    "ts-node-dev": "^1.0.0-pre.56",
+    "typescript": "^3.9.7"
+  }
+}
