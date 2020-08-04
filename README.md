@@ -1,6 +1,6 @@
 ## GraphQL APIs for Next.js examples
 
-This repository contains GraphQL APIs that are used in the [Next.js examples](https://github.com/vercel/next.js/tree/canary/examples). They uses [Prisma](http://prisma.io/) + [Nexus](http://nexusjs.org/) and are hosted on [Vercel](https://vercel.com/) as:
+This repository contains GraphQL APIs that are used in the [Next.js examples](https://github.com/vercel/next.js/tree/canary/examples). They use [Prisma](http://prisma.io/) + [Nexus](http://nexusjs.org/) and are hosted on [Vercel](https://vercel.com/) as:
 
 
 | example                                                                                                                                  | url                                                      |
